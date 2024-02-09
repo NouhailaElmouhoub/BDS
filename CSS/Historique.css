@@ -1,0 +1,29 @@
+.container>img{
+    border-radius: 30px;
+    padding: 20px;
+    width: 110%;
+    box-shadow:0 4px 10px 0 #4f75e8 ;
+    border-radius: 20px;
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+
+.container .text {
+    background:  #f2f3f8;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 20;
+    top: 85%;
+    color:  #4f75e8;
+    width: 70%;
+}
+p{
+    font-family: cursive;
+    font-size: 20PX;
+}
